@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Order summary card</title>
+  <style>
+    @import url(https://fonts.google.com/specimen/Red+Hat+Display);
+    body {
+    background-color: hsl(225, 100%, 94%);
+    
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); text-decoration: none; }
+.background {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    transform: translate(550px,100px);
+    border-radius: 20px;
+}
+#image {
+    transform: translate();
+    width: 400px;
+    height: 180px;
+    border-radius: 20px 20px 0 0;
+}
+.text {
+  transform: translate(630px,-200px);
+}
+.text h1 {
+  text-indent: 10px;
+  transform: translate(0,-100px);
+}
+.text p {
+  line-height: 22px;
+  transform: translate(0,-110px);
+}
+#span {
+  text-indent: 53px;
+  transform: translate(0,-120px);
+}
+p {
+  font-size: 16px;
+  color: gray;
+}
+.music {
+  width: 300px;
+  height: 80px;
+  background-color:  hsl(225, 100%, 98%);
+  transform: translate(604px,-313px);
+  border-radius: 10px;
+}
+.music img {
+  transform: translate(20px,15px);
+}
+.music h1 {
+  transform: translate(80px,-46px);
+  font-size: 16px;
+}
+.music p {
+  transform: translate(80px,-57px);
+}
+.music .change {
+  color: hsl(245, 75%, 52%);
+  transform: translate(241px,-100px);
+}
+button {
+  width: 300px;
+  height: 50px;
+  transform: translate(605px,-282px);
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.last {
+   transform: translate(714px,-276px);
+}
+  </style>
+</head>
+<body>
+<main>
+<div class="background">
+  <img src="images/illustration-hero.svg" id="image">
+</div>
+<div class="text">
+  <h1>order summary</h1>
+  <p>You can now listen to millions of songs,<br>audiobooks and podcasts on any device<br></p>
+  <p id="span">anywhere you like!</p>
+</div>
+<div class="music">
+<img src="images/icon-music.svg">
+<h1>Annual Plan</h1>
+<p>$59.99/year</p>
+<p class="change"><u>Change</u></p>
+</div>
+<button>Proceed To Payment</button>
+<p class="last">Cancel Order</p>
+</main>
+</body>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/riddler5000">riddler5000</a>.
+  </div>
+</footer>
+</html>
